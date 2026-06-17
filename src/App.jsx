@@ -2664,7 +2664,16 @@ function applyPainBasedOfferingRecommendations() {
 
                 <div className="reference-grid">
                   {getSimilarReferenceCases().map((reference) => (
-                    <article className="reference-card executive-reference" key={reference.id}>
+                    <article
+  className="reference-card executive-reference"
+  key={reference.id}
+  onClick={() => {
+    if (reference.onePagerImage) {
+      setActiveOfferingOnePager(reference);
+    }
+  }}
+  style={{ cursor: reference.onePagerImage ? "pointer" : "default" }}
+>
                       <div className="reference-card-top">
                         <span>{reference.matchScore}% Match</span>
                         <strong>{getReferenceStrengthLabel(reference.matchScore)}</strong>
@@ -2704,6 +2713,13 @@ function applyPainBasedOfferingRecommendations() {
                         ))}
                       </div>
 
+                      {reference.onePagerImage && (
+  <div className="reference-onepager-cta">
+    {language === "EN"
+      ? "Click to view reference one-pager"
+      : "Referans one-pager’ı görmek için tıklayın"}
+  </div>
+)}
                     </article>
                   ))}
                 </div>

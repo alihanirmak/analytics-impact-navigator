@@ -4575,6 +4575,8 @@ export const referenceCases = [
         titleTR: "BPC Bütçe Planlama Modernizasyonu",
         industry: "Manufacturing",
         industryTR: "Üretim",
+        clientName: "Bakioğlu Holding",
+  clientNameTR: "Bakioğlu Holding",
         customerType: "SAP-heavy",
         relatedOfferingIds: ["bpc_modernization_journey"],
         relatedUseCaseIds: [
@@ -4602,7 +4604,10 @@ export const referenceCases = [
             "Legacy BPC planning landscape assessed and selected planning/reporting scenarios positioned for a phased SAC modernization roadmap.",
         outcomeTR:
             "Legacy BPC planlama yapısı analiz edilerek seçili planlama/raporlama senaryoları fazlı SAC modernizasyon roadmap’i için konumlandırıldı.",
-    },
+    onePagerImage: "/reference-onepagers/bakioglu-bpc-modernization-onepager.png",
+onePagerTitle: "Bakioğlu Holding | BPC Modernization Journey Reference",
+onePagerTitleTR: "Bakioğlu Holding | BPC Modernizasyon Yolculuğu Referansı",
+        },
     {
         id: "ref_bw_reporting_to_sac",
         title: "BW Reporting to SAC Executive Dashboard Transition",

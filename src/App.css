@@ -7831,3 +7831,18 @@ button {
   border-color: #1d4ed8;
   box-shadow: 0 28px 65px rgba(37, 99, 235, 0.18);
 }
+
+.reference-onepager-cta {
+  margin-top: auto;
+  width: 100%;
+  padding: 9px 12px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #06b6d4, #2563eb);
+  color: #ffffff;
+  border: 0;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 950;
+  letter-spacing: 0.03em;
+  box-shadow: 0 10px 24px rgba(37, 99, 235, 0.18);
+}

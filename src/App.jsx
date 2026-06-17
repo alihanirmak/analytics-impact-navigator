@@ -84,7 +84,7 @@ function App() {
 
   const text = {
     EN: {
-      appName: "Analytics Value Navigator",
+      appName: "Analytics Value Navigator Alihan",
       subtitle: "Build executive-ready analytics value cases from customer pains, offerings and use cases.",
       start: "Start Value Discovery",
       demo: "Load SAP Manufacturing Demo",
